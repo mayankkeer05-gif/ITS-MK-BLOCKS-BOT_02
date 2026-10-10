@@ -84,7 +84,7 @@
   },
   "leave-rejoin": {
     "enabled": true,
-    "stay-seconds": 600,
+    "stay-seconds": 6000,
     "away-seconds": 60
   }
 }
