@@ -48,7 +48,7 @@
     },
     "look-around": {
       "enabled": true,
-      "interval": 15000
+      "interval": 20000
     },
     "random-jump": {
       "enabled": false,
