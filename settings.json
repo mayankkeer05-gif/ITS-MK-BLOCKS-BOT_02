@@ -28,8 +28,8 @@
     },
     "chat-messages": {
       "enabled": true,
-      "repeat": true,
-      "repeat-delay": 12000000,
+      "repeat": false,
+      "repeat-delay": 300000,
       "messages": [
         "MADE BY ITS_MK_PLAYS"
       ]
@@ -47,7 +47,7 @@
       "speed": 3000
     },
     "look-around": {
-      "enabled": true,
+      "enabled": false,
       "interval": 20000
     },
     "random-jump": {
@@ -80,10 +80,10 @@
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   },
   "leave-rejoin": {
-    "enabled": true,
+    "enabled": false,
     "stay-seconds": 6000,
     "away-seconds": 60
   }
