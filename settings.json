@@ -12,9 +12,9 @@
     "try-creative": false
   },
   "position": {
-    "enabled": false,
+    "enabled": true,
     "x": 0,
-    "y": 100,
+    "y": 64,
     "z": 0
   },
   "utils": {
@@ -23,11 +23,11 @@
       "password": "9876543210"
     },
     "anti-afk": {
-      "enabled": true,
+      "enabled": false,
       "sneak": false
     },
     "chat-messages": {
-      "enabled": true,
+      "enabled": false,
       "repeat": false,
       "repeat-delay": 300000,
       "messages": [
@@ -36,7 +36,7 @@
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 30000,
+    "auto-reconnect-delay": 45000,
     "max-reconnect-delay": 1800000
   },
   "movement": {
@@ -59,8 +59,8 @@
     "avoidMobs": false,
     "combat": false,
     "beds": false,
-    "chat": true,
-    "console-commands": true
+    "chat": false,
+    "console-commands": false
   },
   "combat": {
     "attack-mobs": false,
@@ -74,8 +74,8 @@
     "enabled": false,
     "webhookUrl": "",
     "events": {
-      "connect": true,
-      "disconnect": true,
+      "connect": false,
+      "disconnect": false,
       "chat": false
     }
   },
